@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 app_data = {
     "name": "Manic Games",
-    "description": "The website for manic games.",
+    "description": "Manic Games website",
     "author": "Manic",
     "html_title": "Manic Games",
     "project_name": "Manic Game Website",
