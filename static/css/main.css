@@ -1,0 +1,103 @@
+/* Resetting default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #35073b;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #29052e;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Navigation Styles */
+nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #200324;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #100114;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Other Elements */
+a {
+    color: #ff69b4; /* Bright pink color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff; /* Change to white on hover */
+}
+
+.text-gray {
+    color: #f0f0f099;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.blocky-font {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.btn-pink {
+    background-color: #ffffff00;
+    color: #ff69b4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    border-style: solid;
+    border-color: #ff69b4;
+    border-width: 2px;
+    border-radius: 0;
+}
+
+.btn-pink:hover {
+    background-color: #ff69b4;
+    color: #ffffff;
+}

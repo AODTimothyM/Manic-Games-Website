@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h1 class="text-center">Manic Games Blogs</h1>
+  <hr>
+
+  <!-- Blog Posts -->
+  <div class="row">
+    <div class="col-12">
+        {% for blog in blogs %}
+            <div class="px-2 pt-3 my-5">
+              <h2 class="mb-2 text-center" id="{{ blog[0] }}">{{ blog[0] }}</h2>
+              <p>
+                  {% for line in blog[1].split('\n') %}
+                      {{ line }}<br>
+                  {% endfor %}
+              </p>
+            </div>
+        {% endfor %}
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<div class="jumbotron">
+  <div class="col text-center">
+    <div class="row-12">
+      <img src="{{ url_for('static', filename='ManicLogo2.png') }}" height="400" alt="Manic Logo">
+    </div>
+    <div class="row-12">
+      <img src="{{ url_for('static', filename='ManicGamesLogo2.png') }}" height="100" alt="Manic Games Logo">
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col">
+      <h2 class="blocky-font fw-bold">{{ app_data['motto'] }}</h2>
+
+      <div class="row mx-5 mt-4">
+        <div class="col-lg-2"></div>
+
+        <div class="col-lg-8 fw-bold text-gray">
+          <p class="px-lg-5">
+            Manic Games is a fierce, small game studio powerhouse fueled by raw creativity and a hardcore gaming passion. We live to create mind-blowing gaming thrills that'll rock your world.
+          </p>
+          <p class="px-lg-5 mt-4">
+            Dive into the wild vibes on <a href="/blog">our blog</a> for all the latest noise, or just keep scrolling, you know the drill.
+          </p>
+        </div>
+
+        <div class="col-lg-2"></div>
+      </div>
+  </div>
+
+  <hr class="my-4">
+
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 mt-3">
+      <iframe frameborder="0" src="https://itch.io/embed/2373249?border_width=5&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=ffffff&amp;border_color=ffffff" width="510" height="175"><a href="https://manic-melancholia.itch.io/decay-of-opulence">Decay of Opulence by Manic, DignifiedDonut</a></iframe>
+    </div>
+
+    <div class="col-lg-6 col-sm-12 mt-3">
+      <iframe frameborder="0" src="https://itch.io/embed/2219239?border_width=5&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=f70000&amp;border_color=ffffff" width="510" height="175"><a href="https://manic-melancholia.itch.io/lonely-woods">Lonely Woods by Manic</a></iframe>
+    </div>
+
+    <div class="col-lg-6 col-sm-12 mt-3">
+      <iframe frameborder="0" src="https://itch.io/embed/2270130?border_width=5&amp;bg_color=071821&amp;fg_color=86c06c&amp;link_color=e0f8cf&amp;border_color=528a72" width="510" height="175"><a href="https://manic-melancholia.itch.io/meteor-mania">Meteor Mania by Manic, zacrous12</a></iframe>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
